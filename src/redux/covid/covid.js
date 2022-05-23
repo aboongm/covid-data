@@ -1,5 +1,11 @@
-import React from 'react';
+const initialState = [];
 
-const covid = () => <div>covid</div>;
+// reducer
+const covidReducer = (state = initialState, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
 
-export default covid;
+export default covidReducer;
