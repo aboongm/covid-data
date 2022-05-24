@@ -1,7 +1,7 @@
 import Axios from 'axios';
 
 const baseURL = 'https://api.covid19tracking.narrativa.com/api/';
-const date = '2022-05-22';
+const date = '2022-05-24';
 const url = `${baseURL}${date}`;
 // constants
 const FETCH_DATA = 'covid/covid/FETCH_DATA';
