@@ -6,9 +6,13 @@ This is a capstone project for Module 3-React. This website is mobile-friendly a
 
 ## Mobile
 
-<img src="https://user-images.githubusercontent.com/49184579/169946799-e5123043-4387-4ab2-8e23-e81240f1e945.png" align="center" width="420" ></a>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/49184579/169946799-e5123043-4387-4ab2-8e23-e81240f1e945.png" width="360" >
+</p>
 
-<img src="https://user-images.githubusercontent.com/49184579/169946813-1c0b4f77-6755-4987-a211-f1575cbd139c.png" align="center" width="420" ></a>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/49184579/169946813-1c0b4f77-6755-4987-a211-f1575cbd139c.png" width="360" >
+</p>
 
 ## Built With &hearts;
 
@@ -21,6 +25,10 @@ This is a capstone project for Module 3-React. This website is mobile-friendly a
 ## Live Demo
 
 [Github-page live](https://aboongm.github.io/covid-data/)
+
+## Video Link On Youtube
+
+[Youtube](https://youtu.be/qS4A8aZegmo)
 
 ### Prerequisites
 
