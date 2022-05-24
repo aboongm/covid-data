@@ -18,8 +18,6 @@ const Detail = () => {
     (data) => data[0].localeCompare(params.Country) === 0,
   );
 
-  console.log('countrydata: ', countryData);
-
   return (
     <>
       {Object.entries(_).length === 0 && (

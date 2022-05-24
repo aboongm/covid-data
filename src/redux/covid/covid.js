@@ -1,7 +1,8 @@
 import Axios from 'axios';
 
-const baseURL = 'https://api.covid19tracking.narrativa.com/api/2022-05-22';
-
+const baseURL = 'https://api.covid19tracking.narrativa.com/api/';
+const date = '2022-05-22';
+const url = `${baseURL}${date}`;
 // constants
 const FETCH_DATA = 'covid/covid/FETCH_DATA';
 
@@ -12,14 +13,14 @@ const initialState = {
 };
 
 // actions
-const fetchDataAction = (dates, total) => ({
+export const fetchDataAction = (dates, total) => ({
   type: FETCH_DATA,
   dates,
   total,
 });
 
 export const fetchDataApi = () => async (dispatch) => {
-  const returnValue = await Axios.get(baseURL);
+  const returnValue = await Axios.get(url);
   const {
     data: { dates, total },
   } = returnValue;
@@ -32,7 +33,7 @@ const covidReducer = (state = initialState, action) => {
     case FETCH_DATA:
       return {
         ...state,
-        datesData: action.dates['2022-05-22'].countries,
+        datesData: action.dates[date].countries,
         totalData: action.total,
       };
     default:
