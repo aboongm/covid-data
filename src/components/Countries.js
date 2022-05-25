@@ -24,7 +24,7 @@ const Countries = (props) => {
         >
           {name}
         </button>
-        <p className="text-white">{TotalConfirmed}</p>
+        <p className="text-white text2">{TotalConfirmed}</p>
         {' '}
         <FaRegArrowAltCircleRight
           className="arrow-right"
