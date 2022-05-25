@@ -22,31 +22,31 @@ const Home = () => {
     <>
       <div className="row m-0 p-0 ">
         <div className="col m-0 p-3  d-flex flex-column align-items-center justify-content-center bg-image">
-          <p className="text-white text-center">
-            <span className="h5 text-center">COVID-19 Statistics</span>
+          <p className="text-white text-center text2">
+            <span className="text1 text-center">COVID-19 Statistics</span>
             <br />
             Around The World
           </p>
         </div>
         <div className="col bg-color m-0 p-3 ">
-          <p className="text-white">
-            <span className="h5">Total Cases:</span>
+          <p className="text-white text2">
+            <span className="text1">TOTAL:</span>
             <br />
             {totalData.today_confirmed}
           </p>
-          <p className="text-white">
-            <span className="h5">Date:</span>
+          <p className="text-white text2">
+            <span className="text1">DATE:</span>
             <br />
             {totalData.date}
           </p>
         </div>
       </div>
       <div className="text-center bg-color1 m-0 pt-2 pb-3">
-        <p className="text-white m-0 p-0">Search by country name</p>
+        <p className="text-white m-0 p-0 text2">SEARCH BY COUNTRY NAME</p>
         <input
           type="text"
           placeholder="Type a country"
-          className="mx-0 mt-2 mb-0 ps-3 py-1 rounded-pill"
+          className="mx-0 mt-2 mb-0 ps-3 py-1 rounded-pill text2"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />

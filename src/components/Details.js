@@ -21,7 +21,7 @@ const Detail = () => {
   return (
     <>
       {Object.entries(_).length === 0 && (
-        <h4 className="m-4 text-white">Please Wait !</h4>
+        <h4 className="m-4 text-white text1">Please Wait !</h4>
       )}
       {Object.entries(_).length > 0 && (
         <main>
@@ -31,32 +31,32 @@ const Detail = () => {
           />
           <div className="row m-0 p-0 ">
             <div className="col m-0 p-3  d-flex flex-column align-items-center justify-content-center bg-image">
-              <p className="text-white text-center">
-                <span className="h5 text-center">COVID-19 Statistics</span>
+              <p className="text-white text-center text2">
+                <span className="h5 text-center text1">
+                  COVID-19 Statistics
+                </span>
                 <br />
                 Around The World
               </p>
             </div>
             <div className="col bg-color m-0 p-3 ">
-              <p className="text-white">
-                <span className="h5">
+              <p className="text-white text2">
+                <span className="text1 text-uppercase">
                   {params.Country}
-                  {' '}
-                  Cases :
+                  :
                 </span>
                 <br />
                 {countryData[0][1].today_confirmed}
               </p>
-              <p className="text-white">
-                <span className="h5">Date:</span>
+              <p className="text-white text2">
+                <span className="text1">DATE:</span>
                 <br />
                 {countryData[0][1].date}
               </p>
             </div>
           </div>
-          <div className="text-center bg-color1 m-0 pt-2 pb-3">
-            <p className="text-white m-0 p-0">Statistics</p>
-          </div>
+          <p className="bg-color1 text-white m-0 p-0 text2">STATISTICS</p>
+
           <motion.section
             className="bg-color"
             initial={{ x: '-100vw' }}
@@ -66,48 +66,48 @@ const Detail = () => {
             <div className="row countries-container m-0">
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end">Total Confirmed</h4>
-                  <p className="text-white text-end">
+                  <h4 className="text-white text-end text3">Total Confirmed</h4>
+                  <p className="text-white text-end text2">
                     {countryData[0][1].today_confirmed}
                   </p>
                 </div>
               </div>
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end">New Confirmed</h4>
-                  <p className="text-white text-end">
+                  <h4 className="text-white text-end text3">New Confirmed</h4>
+                  <p className="text-white text-end text2">
                     {countryData[0][1].today_new_confirmed}
                   </p>
                 </div>
               </div>
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end">Total Recovered</h4>
-                  <p className="text-white text-end">
+                  <h4 className="text-white text-end text3">Total Recovered</h4>
+                  <p className="text-white text-end text2">
                     {countryData[0][1].today_recovered}
                   </p>
                 </div>
               </div>
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end">New Recovered</h4>
-                  <p className="text-white text-end">
+                  <h4 className="text-white text-end text3">New Recovered</h4>
+                  <p className="text-white text-end text2">
                     {countryData[0][1].today_new_recovered}
                   </p>
                 </div>
               </div>
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end">Total Deaths</h4>
-                  <p className="text-white text-end">
+                  <h4 className="text-white text-end text3">Total Deaths</h4>
+                  <p className="text-white text-end text2">
                     {countryData[0][1].today_deaths}
                   </p>
                 </div>
               </div>
               <div className="col-6">
                 <div className="countries">
-                  <h4 className="text-white text-end">New Deaths</h4>
-                  <p className="text-white text-end">
+                  <h4 className="text-white text-end text3">New Deaths</h4>
+                  <p className="text-white text-end text2">
                     {countryData[0][1].today_new_deaths}
                   </p>
                 </div>

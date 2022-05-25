@@ -28,7 +28,7 @@ This is a capstone project for Module 3-React. This website is mobile-friendly a
 
 ## Video Link On Youtube
 
-[Youtube](https://youtu.be/qS4A8aZegmo)
+[Youtube](https://youtu.be/LebbJD1S9y8)
 
 ### Prerequisites
 
@@ -67,9 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Inspired by original design for Creative Commons by Nelson Sakwa on [Behance](<https://behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>)
 - Microverse program
-- My standup team
 - Microverse team
 - My family's support
 
