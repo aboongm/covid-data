@@ -67,9 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Inspired by original design for Creative Commons by Nelson Sakwa on Behance
 - Microverse program
-- My standup team
 - Microverse team
 - My family's support
 
